@@ -19,4 +19,4 @@ preds = pd.Series(preds, index=test.index)
 print(‘prediction score is:’)
 p=precision_score(test["Target"], preds)
 print(p)
-THANK
+
