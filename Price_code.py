@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import precision_score
-sp500 = pd.read_csv("C:/Users/vishnesh/OneDrive/Desktop/abcd/sp500.csv", index_col=0)
+sp500 = pd.read_csv("dataset.csv", index_col=0)
 sp500.plot.line(y="Close", use_index=True)
 del sp500["Dividends"]
 del sp500["Stock Splits"]
